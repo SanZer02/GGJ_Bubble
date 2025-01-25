@@ -111,6 +111,22 @@
         "name": "Source\\Gun1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Source/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Source\\Bullet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Source_Bullet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Source\\Bullet",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -200,7 +216,7 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
           "type": "Sprite",
@@ -211,14 +227,14 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 900,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 400,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -271,11 +287,11 @@
                           },
                           {
                             "x": 18,
-                            "y": 28
+                            "y": 24.5
                           },
                           {
-                            "x": 6,
-                            "y": 28
+                            "x": 7,
+                            "y": 24.5
                           }
                         ]
                       ]
@@ -289,7 +305,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -325,11 +341,11 @@
                           },
                           {
                             "x": 18,
-                            "y": 28
+                            "y": 24.5
                           },
                           {
-                            "x": 6,
-                            "y": 28
+                            "x": 7,
+                            "y": 24.5
                           }
                         ]
                       ]
@@ -367,11 +383,11 @@
                           },
                           {
                             "x": 18,
-                            "y": 28
+                            "y": 24.5
                           },
                           {
-                            "x": 6,
-                            "y": 28
+                            "x": 7,
+                            "y": 24.5
                           }
                         ]
                       ]
@@ -409,11 +425,11 @@
                           },
                           {
                             "x": 18,
-                            "y": 28
+                            "y": 24.5
                           },
                           {
-                            "x": 6,
-                            "y": 28
+                            "x": 7,
+                            "y": 24.5
                           }
                         ]
                       ]
@@ -451,11 +467,11 @@
                           },
                           {
                             "x": 18,
-                            "y": 28
+                            "y": 24.5
                           },
                           {
-                            "x": 6,
-                            "y": 28
+                            "x": 7,
+                            "y": 24.5
                           }
                         ]
                       ]
@@ -558,7 +574,7 @@
                       "points": [
                         {
                           "name": "GunPoint",
-                          "x": 27.5,
+                          "x": 30,
                           "y": 6.5
                         }
                       ],
@@ -599,6 +615,75 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Source\\Bullet",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Source\\Bullet",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 2,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -606,6 +691,9 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Bullet"
           },
           {
             "objectName": "Gun"
@@ -616,6 +704,18 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Camera"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -639,7 +739,13 @@
                 "",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "CentreCamera"
@@ -649,7 +755,7 @@
                 "Player",
                 "",
                 "",
-                "0"
+                ""
               ]
             }
           ]
@@ -717,6 +823,215 @@
                 "Animation",
                 "=",
                 "\"idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Gun",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Player",
+                ">",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Gun",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "GunHeld"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "Gun",
+                "=",
+                "Player.PointX(\"HeldPoint\")",
+                "=",
+                "Player.PointY(\"HeldPoint\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Gun",
+                "CursorX()",
+                "CursorY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Bubble"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bullet",
+                "Gun.PointX(\"GunPoint\")",
+                "Gun.PointY(\"GunPoint\")",
+                ""
               ]
             }
           ]
