@@ -1750,6 +1750,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -3649,6 +3653,7 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
+<<<<<<< Updated upstream
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -3662,6 +3667,9 @@
         "zoomFactor": 0.546875,
         "windowMask": false
       },
+=======
+      "uiSettings": {},
+>>>>>>> Stashed changes
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -3718,6 +3726,13 @@
       ],
       "behaviorsSharedData": [
         {
+<<<<<<< Updated upstream
+=======
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+>>>>>>> Stashed changes
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -3769,6 +3784,7 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
+<<<<<<< Updated upstream
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -3782,6 +3798,9 @@
         "zoomFactor": 0.546875,
         "windowMask": false
       },
+=======
+      "uiSettings": {},
+>>>>>>> Stashed changes
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -3838,6 +3857,13 @@
       ],
       "behaviorsSharedData": [
         {
+<<<<<<< Updated upstream
+=======
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+>>>>>>> Stashed changes
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -3958,6 +3984,13 @@
       ],
       "behaviorsSharedData": [
         {
+<<<<<<< Updated upstream
+=======
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+>>>>>>> Stashed changes
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -4009,6 +4042,7 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
+<<<<<<< Updated upstream
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -4022,6 +4056,9 @@
         "zoomFactor": 0.546875,
         "windowMask": false
       },
+=======
+      "uiSettings": {},
+>>>>>>> Stashed changes
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -4078,6 +4115,13 @@
       ],
       "behaviorsSharedData": [
         {
+<<<<<<< Updated upstream
+=======
+          "name": "AdvancedJump",
+          "type": "AdvancedJump::AdvancedJump"
+        },
+        {
+>>>>>>> Stashed changes
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
         },
@@ -8810,6 +8854,7 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "author": "",
       "category": "User interface",
       "extensionNamespace": "",
@@ -8836,6 +8881,8 @@
       "authorIds": [
         "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
 =======
+=======
+>>>>>>> Stashed changes
       "author": "Entropy",
       "category": "Movement",
       "extensionNamespace": "",
@@ -8878,6 +8925,9 @@
         "JD2xwvKWgodlqsGiL1GCH3tDEwq1",
         "q8ubdigLvIRXLxsJDDTaokO41mc2",
         "UMcf9dzu8pVV84ZSLaGAtUB8PyF2"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       ],
       "dependencies": [],
@@ -8887,23 +8937,33 @@
       "eventsBasedBehaviors": [
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
           "name": "ButtonFSM",
           "objectType": "",
           "private": true,
 =======
+=======
+>>>>>>> Stashed changes
           "description": "Let platformer characters jump shortly after leaving a platform and also jump in mid-air.",
           "fullName": "Coyote time and air jump",
           "name": "AdvancedJump",
           "objectType": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           "eventsFunctions": [
             {
               "fullName": "",
               "functionType": "Action",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "name": "doStepPostEvents",
+=======
+              "name": "doStepPreEvents",
+>>>>>>> Stashed changes
 =======
               "name": "doStepPreEvents",
 >>>>>>> Stashed changes
@@ -8915,7 +8975,11 @@
                   "colorR": 74,
                   "creationTime": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "name": "Finite state machine",
+=======
+                  "name": "Coyote time",
+>>>>>>> Stashed changes
 =======
                   "name": "Coyote time",
 >>>>>>> Stashed changes
@@ -8933,7 +8997,11 @@
                         "textR": 0
                       },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                       "comment": "The \"Validated\" state only last one frame."
+=======
+                      "comment": "Avoid any side effect if the feature is not used."
+>>>>>>> Stashed changes
 =======
                       "comment": "Avoid any side effect if the feature is not used."
 >>>>>>> Stashed changes
@@ -8944,7 +9012,11 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "PanelSpriteButton::ButtonFSM::PropertyState"
+=======
+                            "value": "AdvancedJump::AdvancedJump::PropertyCoyoteTimeFrameDuration"
+>>>>>>> Stashed changes
 =======
                             "value": "AdvancedJump::AdvancedJump::PropertyCoyoteTimeFrameDuration"
 >>>>>>> Stashed changes
@@ -8953,9 +9025,12 @@
                             "Object",
                             "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "=",
                             "\"Validated\""
 =======
+=======
+>>>>>>> Stashed changes
                             ">",
                             "0"
                           ]
@@ -9489,6 +9564,9 @@
                           "parameters": [
                             "Object",
                             "PlatformerBehavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
@@ -9497,7 +9575,11 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "PanelSpriteButton::ButtonFSM::SetPropertyState"
+=======
+                            "value": "AdvancedJump::AdvancedJump::SetPropertyAirJumpCount"
+>>>>>>> Stashed changes
 =======
                             "value": "AdvancedJump::AdvancedJump::SetPropertyAirJumpCount"
 >>>>>>> Stashed changes
@@ -9507,8 +9589,11 @@
                             "Behavior",
                             "=",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "\"Idle\""
 =======
+=======
+>>>>>>> Stashed changes
                             "0"
                           ]
                         },
@@ -9546,12 +9631,16 @@
                                 "\"AirJump\""
                               ]
                             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
                       ]
                     },
                     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       "colorB": 228,
                       "colorG": 176,
@@ -9575,6 +9664,8 @@
                         },
                         {
 =======
+=======
+>>>>>>> Stashed changes
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -9655,12 +9746,16 @@
                       "events": [
                         {
                           "disabled": true,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
                             {
                               "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                 "value": "PanelSpriteButton::ButtonFSM::SetPropertyMouseIsInside"
                               },
@@ -9771,17 +9866,23 @@
                                 "Behavior",
                                 "yes"
 =======
+=======
+>>>>>>> Stashed changes
                                 "value": "DebuggerTools::ConsoleLog"
                               },
                               "parameters": [
                                 "\"Jump allowed: \" + ToString(AirJumpCountMaximum - AirJumpCount) + \" + 1\"",
                                 "\"info\"",
                                 "\"AirJump\""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                               ]
                             }
                           ]
                         }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       ],
                       "parameters": []
@@ -10219,6 +10320,9 @@
 =======
                       ]
 >>>>>>> Stashed changes
+=======
+                      ]
+>>>>>>> Stashed changes
                     }
                   ],
                   "parameters": []
@@ -10234,8 +10338,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteButton::ButtonFSM",
 =======
+=======
+>>>>>>> Stashed changes
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
                   "type": "behavior"
                 }
@@ -10275,6 +10382,9 @@
                   "description": "Behavior",
                   "name": "Behavior",
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "behavior"
                 }
@@ -10294,8 +10404,11 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "PanelSpriteButton::ButtonFSM::ResetState"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "RemoveObjectTimer"
                       },
                       "parameters": [
@@ -10346,6 +10459,9 @@
                     {
                       "type": {
                         "value": "AdvancedJump::AdvancedJump::UpdateWasInTheAir"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       },
                       "parameters": [
@@ -10367,7 +10483,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteButton::ButtonFSM",
+=======
+                  "supplementaryInformation": "AdvancedJump::AdvancedJump",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
 >>>>>>> Stashed changes
@@ -10377,6 +10497,7 @@
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "Reset the state of the button.",
               "fullName": "Reset state",
@@ -10393,6 +10514,8 @@
                       "type": {
                         "value": "PanelSpriteButton::ButtonFSM::SetPropertyState"
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Change the coyote time duration of an object (in seconds).",
               "fullName": "Coyote timeframe",
               "functionType": "Action",
@@ -10418,11 +10541,15 @@
                     {
                       "type": {
                         "value": "AdvancedJump::AdvancedJump::PropertyCoyoteTimeFrameDuration"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       },
                       "parameters": [
                         "Object",
                         "Behavior",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "=",
                         "\"Idle\""
@@ -10440,6 +10567,8 @@
                       ]
                     }
 =======
+=======
+>>>>>>> Stashed changes
                         "<=",
                         "0"
                       ]
@@ -10473,6 +10602,9 @@
                         "Value"
                       ]
                     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   ]
                 }
@@ -10487,9 +10619,12 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteButton::ButtonFSM",
                   "type": "behavior"
 =======
+=======
+>>>>>>> Stashed changes
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
                   "type": "behavior"
                 },
@@ -10498,12 +10633,16 @@
                   "longDescription": "Coyote time duration in seconds.",
                   "name": "Value",
                   "type": "expression"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "Check if the button is not used.",
               "fullName": "Is idle",
@@ -10831,12 +10970,17 @@
               "name": "TouchId",
               "sentence": "the touch id",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Check if a coyote jump can currently happen.",
               "fullName": "Can coyote jump",
               "functionType": "Condition",
               "group": "Coyote time",
               "name": "CanCoyoteJump",
               "sentence": "_PARAM0_ can coyote jump",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -10846,11 +10990,14 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "SetReturnNumber"
                       },
                       "parameters": [
                         "TouchId"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "SetReturnBoolean"
                       },
                       "parameters": [
@@ -10879,6 +11026,9 @@
                       },
                       "parameters": [
                         "True"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -10886,9 +11036,12 @@
                 }
               ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "expressionType": {
                 "type": "expression"
               },
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
               "parameters": [
@@ -10901,7 +11054,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteButton::ButtonFSM",
+=======
+                  "supplementaryInformation": "AdvancedJump::AdvancedJump",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
 >>>>>>> Stashed changes
@@ -10909,6 +11066,7 @@
                 }
               ],
               "objectGroups": []
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             }
           ],
@@ -12039,6 +12197,8 @@
               "private": true,
               "sentence": "",
 =======
+=======
+>>>>>>> Stashed changes
             },
             {
               "fullName": "Update WasInTheAir",
@@ -12047,6 +12207,9 @@
               "name": "UpdateWasInTheAir",
               "private": true,
               "sentence": "Update WasInTheAir property of _PARAM0_",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -12055,6 +12218,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "SetReturnNumber"
                       },
@@ -12223,12 +12387,17 @@
                         "ButtonFSM",
                         "yes"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::AdvancedJump::SetPropertyWasInTheAir"
                       },
                       "parameters": [
                         "Object",
                         "Behavior",
                         "no"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12241,11 +12410,14 @@
                       "type": {
                         "inverted": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "GetArgumentAsBoolean"
                       },
                       "parameters": [
                         "\"ShouldActivate\""
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "PlatformBehavior::IsOnFloor"
                       },
                       "parameters": [
@@ -12271,6 +12443,9 @@
                       "parameters": [
                         "Object",
                         "PlatformerBehavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12279,6 +12454,7 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
@@ -12286,12 +12462,17 @@
                         "ButtonFSM",
                         "no"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::AdvancedJump::SetPropertyWasInTheAir"
                       },
                       "parameters": [
                         "Object",
                         "Behavior",
                         "yes"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12303,6 +12484,7 @@
                   "description": "Object",
                   "name": "Object",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteButton::PanelSpriteButton",
                   "type": "object"
                 },
@@ -12311,6 +12493,8 @@
                   "name": "ShouldActivate",
                   "type": "yesorno"
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
@@ -12318,12 +12502,16 @@
                   "name": "Behavior",
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
                   "type": "behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "Check if interactions are activated on the button.",
               "fullName": "Interactions activated",
@@ -12642,12 +12830,17 @@
               "name": "Value",
               "sentence": "the value",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Number of jumps in mid-air that are allowed.",
               "fullName": "Maximal jump number",
               "functionType": "Expression",
               "group": "Air jump",
               "name": "AirJumpsMax",
               "sentence": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -12660,7 +12853,11 @@
                       },
                       "parameters": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "Value"
+=======
+                        "AirJumpCountMaximum"
+>>>>>>> Stashed changes
 =======
                         "AirJumpCountMaximum"
 >>>>>>> Stashed changes
@@ -12682,7 +12879,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::Slider",
+=======
+                  "supplementaryInformation": "AdvancedJump::AdvancedJump",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
 >>>>>>> Stashed changes
@@ -12693,16 +12894,22 @@
             },
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "fullName": "",
               "functionType": "ActionWithOperator",
               "getterName": "Value",
               "name": "SetValue",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Number of jumps in mid-air that are still allowed.",
               "fullName": "Remaining jump",
               "functionType": "Expression",
               "group": "Air jump",
               "name": "RemainingAirJumps",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "sentence": "",
               "events": [
@@ -12712,6 +12919,7 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::Slider::PropertyStepSize"
                       },
                       "parameters": [
@@ -12720,12 +12928,17 @@
                         "=",
                         "0"
 =======
+=======
+>>>>>>> Stashed changes
                         "inverted": true,
                         "value": "PlatformBehavior::CanJump"
                       },
                       "parameters": [
                         "Object",
                         "PlatformerBehavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12733,6 +12946,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::Slider::SetPropertyValue"
                       },
@@ -12742,10 +12956,15 @@
                         "=",
                         "clamp(Value, MinValue, MaxValue)"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "SetReturnNumber"
                       },
                       "parameters": [
                         "max(0, AirJumpCountMaximum - AirJumpCount)"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12753,7 +12972,10 @@
                 },
                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -12766,11 +12988,15 @@
                   "comment": "When the jump is allowed but not yet done, it must not be counted."
                 },
                 {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::Slider::PropertyStepSize"
                       },
@@ -12780,11 +13006,16 @@
                         "!=",
                         "0"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "PlatformBehavior::CanJump"
                       },
                       "parameters": [
                         "Object",
                         "PlatformerBehavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12792,6 +13023,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::Slider::SetPropertyValue"
                       },
@@ -12839,10 +13071,15 @@
                       "parameters": [
                         "MinValue"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "SetReturnNumber"
                       },
                       "parameters": [
                         "clamp(1 + AirJumpCountMaximum - AirJumpCount, 0, AirJumpCountMaximum)"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -12862,7 +13099,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::Slider",
+=======
+                  "supplementaryInformation": "AdvancedJump::AdvancedJump",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
 >>>>>>> Stashed changes
@@ -12872,6 +13113,7 @@
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "fullName": "",
               "functionType": "ActionWithOperator",
@@ -13213,6 +13455,8 @@
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Change the number of times the character can jump in mid-air.",
               "fullName": "Air jumps",
               "functionType": "Action",
@@ -13282,6 +13526,9 @@
                       ]
                     }
                   ],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "events": [
                     {
@@ -13295,7 +13542,11 @@
                         "textR": 0
                       },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                       "comment": "The \"Validated\" state only last one frame."
+=======
+                      "comment": "Avoid to jump again before the current jump input ends."
+>>>>>>> Stashed changes
 =======
                       "comment": "Avoid to jump again before the current jump input ends."
 >>>>>>> Stashed changes
@@ -13306,6 +13557,7 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "PanelSpriteSlider::ButtonFSM::PropertyState"
                           },
                           "parameters": [
@@ -13314,12 +13566,17 @@
                             "=",
                             "\"Validated\""
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                           },
                           "parameters": [
                             "Object",
                             "PlatformerBehavior",
                             "\"Jump\""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
@@ -13328,7 +13585,11 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
+=======
+                            "value": "AdvancedJump::AdvancedJump::SetPropertyWasJumpKeyReleased"
+>>>>>>> Stashed changes
 =======
                             "value": "AdvancedJump::AdvancedJump::SetPropertyWasJumpKeyReleased"
 >>>>>>> Stashed changes
@@ -13336,6 +13597,7 @@
                           "parameters": [
                             "Object",
                             "Behavior",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "=",
                             "\"Idle\""
@@ -13919,12 +14181,17 @@
                   ],
                   "parameters": []
 =======
+=======
+>>>>>>> Stashed changes
                             "False"
                           ]
                         }
                       ]
                     }
                   ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
@@ -13938,7 +14205,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
+=======
+                  "supplementaryInformation": "AdvancedJump::AdvancedJump",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
 >>>>>>> Stashed changes
@@ -13949,17 +14220,23 @@
             },
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "fullName": "",
               "functionType": "Action",
               "name": "onDeActivate",
               "sentence": "",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Allow back all air jumps of a character.",
               "fullName": "Reset air jumps",
               "functionType": "Action",
               "group": "Air jump",
               "name": "ResetAirJumpCounter",
               "sentence": "Allow back all air jumps of _PARAM0_",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -13968,6 +14245,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::ButtonFSM::SetPropertyState"
                       },
@@ -13984,6 +14262,9 @@
 =======
                         "value": "AdvancedJump::AdvancedJump::SetPropertyAirJumpCount"
 >>>>>>> Stashed changes
+=======
+                        "value": "AdvancedJump::AdvancedJump::SetPropertyAirJumpCount"
+>>>>>>> Stashed changes
                       },
                       "parameters": [
                         "Object",
@@ -13993,6 +14274,7 @@
                       ]
                     }
                   ]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 }
               ],
@@ -14340,6 +14622,8 @@
               "events": [
                 {
 =======
+=======
+>>>>>>> Stashed changes
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -14354,6 +14638,9 @@
                   "comment": "This avoid to give an extra jump if the character was already allowed to jump in mid-air."
                 },
                 {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -14361,11 +14648,14 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "SetReturnNumber"
                       },
                       "parameters": [
                         "TouchId"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "PlatformBehavior::PlatformerObjectBehavior::SetCanNotAirJump"
                       },
                       "parameters": [
@@ -14420,6 +14710,9 @@
                         "Object",
                         "Behavior",
                         "False"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -14427,9 +14720,12 @@
                 }
               ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "expressionType": {
                 "type": "expression"
               },
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
               "parameters": [
@@ -14442,8 +14738,11 @@
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::ButtonFSM",
 =======
+=======
+>>>>>>> Stashed changes
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
                   "type": "behavior"
                 }
@@ -14493,6 +14792,9 @@
                   "description": "Behavior",
                   "name": "Behavior",
                   "supplementaryInformation": "AdvancedJump::AdvancedJump",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "behavior"
                 }
@@ -14502,6 +14804,7 @@
           ],
           "propertyDescriptors": [
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "value": "true",
               "type": "Boolean",
@@ -14528,6 +14831,8 @@
               "hidden": true,
               "name": "State"
 =======
+=======
+>>>>>>> Stashed changes
               "value": "",
               "type": "Behavior",
               "label": "Platformer character behavior",
@@ -14585,11 +14890,15 @@
               "group": "Air jump",
               "extraInformation": [],
               "name": "AreFloorJumpCountedAsAirJump"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             },
             {
               "value": "0",
               "type": "Number",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "label": "Touch id",
               "description": "",
@@ -14646,6 +14955,8 @@
           "isUsingLegacyInstancesRenderer": true,
           "name": "PanelSpriteSlider",
 =======
+=======
+>>>>>>> Stashed changes
               "label": "",
               "description": "",
               "group": "Air jump",
@@ -14671,11 +14982,15 @@
           "fullName": "Wall jump",
           "name": "WallJump",
           "objectType": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           "eventsFunctions": [
             {
               "fullName": "",
               "functionType": "Action",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "name": "onCreated",
               "sentence": "",
@@ -14705,6 +15020,8 @@
                         "=",
                         "Object.PropertyInitialValue()"
 =======
+=======
+>>>>>>> Stashed changes
               "name": "doStepPreEvents",
               "sentence": "",
               "events": [
@@ -14817,6 +15134,9 @@
                             ""
                           ]
                         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -14833,7 +15153,11 @@
                     "textR": 0
                   },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "comment": "Create the child-object instances."
+=======
+                  "comment": "To know when jumping from the floor or not."
+>>>>>>> Stashed changes
 =======
                   "comment": "To know when jumping from the floor or not."
 >>>>>>> Stashed changes
@@ -14844,6 +15168,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "Create"
                       },
@@ -15078,6 +15403,8 @@
                         ""
                       ]
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::WallJump::SetPropertyWasInTheAir"
                       },
                       "parameters": [
@@ -15085,6 +15412,9 @@
                         "Behavior",
                         "no"
                       ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     }
                   ]
@@ -15095,6 +15425,7 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyInitialValue"
                       },
                       "parameters": [
@@ -15102,6 +15433,8 @@
                         "!=",
                         "Object.PropertyPreviousInitialValue()"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "BuiltinCommonInstructions::Or"
                       },
                       "parameters": [],
@@ -15124,6 +15457,9 @@
                             "PlatformerCharacter"
                           ]
                         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -15131,6 +15467,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyPreviousInitialValue"
                       },
@@ -15171,6 +15508,8 @@
               "sentence": "",
               "events": [
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::WallJump::SetPropertyWasInTheAir"
                       },
                       "parameters": [
@@ -15181,6 +15520,9 @@
                     }
                   ]
                 },
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 {
                   "colorB": 228,
@@ -15188,7 +15530,11 @@
                   "colorR": 74,
                   "creationTime": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "name": "Handle touches",
+=======
+                  "name": "Wall jump end",
+>>>>>>> Stashed changes
 =======
                   "name": "Wall jump end",
 >>>>>>> Stashed changes
@@ -15201,17 +15547,23 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "BehaviorActivated"
                           },
                           "parameters": [
                             "Background",
                             "ButtonFSM"
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "AdvancedJump::WallJump::PropertyIsWallJumping"
                           },
                           "parameters": [
                             "Object",
                             "Behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
@@ -15220,7 +15572,10 @@
                       "events": [
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -15233,11 +15588,15 @@
                           "comment": "Reset default character configuration when the character change of direction or start to fall."
                         },
                         {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
                               "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                 "inverted": true,
                                 "value": "DraggableBehavior::Dragged"
@@ -15261,12 +15620,15 @@
                               "type": {
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 "value": "BuiltinCommonInstructions::Or"
                               },
                               "parameters": [],
                               "subInstructions": [
                                 {
                                   "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                     "value": "PanelSpriteSlider::ButtonFSM::IsPressed"
                                   },
@@ -15275,16 +15637,22 @@
                                     "ButtonFSM",
                                     ""
 =======
+=======
+>>>>>>> Stashed changes
                                     "value": "PlatformBehavior::IsFalling"
                                   },
                                   "parameters": [
                                     "Object",
                                     "PlatformerCharacter"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                   ]
                                 },
                                 {
                                   "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                     "value": "PanelSpriteSlider::ButtonFSM::IsPressedOutside"
                                   },
@@ -15332,6 +15700,8 @@
                                     "Label",
                                     ""
 =======
+=======
+>>>>>>> Stashed changes
                                     "value": "BuiltinCommonInstructions::And"
                                   },
                                   "parameters": [],
@@ -15355,11 +15725,15 @@
                                         "\"Left\""
                                       ]
                                     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                   ]
                                 },
                                 {
                                   "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                     "value": "ResetObjectTimer"
                                   },
@@ -15367,6 +15741,8 @@
                                     "Label",
                                     "\"HideBack\""
 =======
+=======
+>>>>>>> Stashed changes
                                     "value": "BuiltinCommonInstructions::And"
                                   },
                                   "parameters": [],
@@ -15391,11 +15767,15 @@
                                         "\"Right\""
                                       ]
                                     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                   ]
                                 }
                               ]
                             }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                           ]
                         },
@@ -15467,10 +15847,13 @@
                                 "Draggable"
                               ]
                             }
+=======
+>>>>>>> Stashed changes
                           ],
                           "actions": [
                             {
                               "type": {
+<<<<<<< Updated upstream
                                 "value": "ResetObjectTimer"
                               },
                               "parameters": [
@@ -15490,17 +15873,23 @@
                               "parameters": [
                                 "Object"
 =======
+=======
+>>>>>>> Stashed changes
                                 "value": "AdvancedJump::WallJump::SetPropertyIsWallJumping"
                               },
                               "parameters": [
                                 "Object",
                                 "Behavior",
                                 "no"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                               ]
                             },
                             {
                               "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                 "value": "CollisionPoint"
                               },
@@ -15565,6 +15954,8 @@
                                 "\"HideBack\""
                               ]
 =======
+=======
+>>>>>>> Stashed changes
                                 "value": "AdvancedJump::WallJump::ToggleSideSpeed"
                               },
                               "parameters": [
@@ -15573,6 +15964,9 @@
                                 "",
                                 ""
                               ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                             }
                           ]
@@ -15588,7 +15982,11 @@
                   "colorR": 74,
                   "creationTime": 0,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "name": "Resize",
+=======
+                  "name": "Wall detection",
+>>>>>>> Stashed changes
 =======
                   "name": "Wall detection",
 >>>>>>> Stashed changes
@@ -15606,8 +16004,11 @@
                         "textR": 0
                       },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                       "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
 =======
+=======
+>>>>>>> Stashed changes
                       "comment": "When the character tries to move but can't actually move, it's against a wall."
                     },
                     {
@@ -15842,6 +16243,9 @@
                           ]
                         }
                       ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     },
                     {
@@ -15856,6 +16260,7 @@
                             {
                               "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                 "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
                               "parameters": [
@@ -15863,16 +16268,22 @@
                                 "!=",
                                 "max(Background.BoundingBoxRight(), max(Label.BoundingBoxRight(), Thumb.BoundingBoxRight())) - min(Background.BoundingBoxLeft(), min(Label.BoundingBoxLeft(), Thumb.BoundingBoxLeft()))"
 =======
+=======
+>>>>>>> Stashed changes
                                 "value": "AdvancedJump::WallJump::PropertyIsAgainstWall"
                               },
                               "parameters": [
                                 "Object",
                                 "Behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                               ]
                             },
                             {
                               "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                                 "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
@@ -15881,6 +16292,8 @@
                                 "!=",
                                 "max(Background.BoundingBoxBottom(), max(Label.BoundingBoxBottom(), Thumb.BoundingBoxBottom())) - min(Background.BoundingBoxTop(), min(Label.BoundingBoxTop(), Thumb.BoundingBoxTop()))"
 =======
+=======
+>>>>>>> Stashed changes
                                 "value": "AdvancedJump::WallJump::WasAgainstWall"
                               },
                               "parameters": [
@@ -15888,6 +16301,9 @@
                                 "Behavior",
                                 "JumpTimeFrame",
                                 ""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                               ]
                             }
@@ -15897,6 +16313,7 @@
                       "actions": [],
                       "events": [
                         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
@@ -15958,6 +16375,8 @@
                               "parameters": [
                                 "Object",
 =======
+=======
+>>>>>>> Stashed changes
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -15981,11 +16400,15 @@
                                 "Behavior",
                                 "JumpTimeFrame",
                                 "\"Jump\"",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                                 ""
                               ]
                             }
                           ],
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                           "variables": [
                             {
@@ -15998,6 +16421,8 @@
                               "type": "number",
                               "value": 0
 =======
+=======
+>>>>>>> Stashed changes
                           "actions": [
                             {
                               "type": {
@@ -16142,6 +16567,9 @@
                                   ]
                                 }
                               ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                             }
                           ]
@@ -16153,7 +16581,10 @@
                 },
                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
@@ -17161,6 +17592,9 @@
                   ]
                 },
                 {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -17172,7 +17606,11 @@
                     "textR": 0
                   },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "comment": "The parent size is not defined in onCreate so it needs to be done here."
+=======
+                  "comment": "Don't do it if speed wasn't saved by the previous event at some point."
+>>>>>>> Stashed changes
 =======
                   "comment": "Don't do it if speed wasn't saved by the previous event at some point."
 >>>>>>> Stashed changes
@@ -17183,22 +17621,29 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
 =======
+=======
+>>>>>>> Stashed changes
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
                       "parameters": [
                         "\"EnableSideSpeed\""
                       ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     }
                   ],
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::UpdateLayout"
                       },
@@ -17214,12 +17659,17 @@
                       "parameters": [
                         "Object",
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::PlatformerConfigurationStack::RevertConfiguration"
                       },
                       "parameters": [
                         "Object",
                         "PlatformerConfigurationStack",
                         "\"WallJumpLeap\"",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                         ""
                       ]
@@ -17232,9 +17682,12 @@
                   "description": "Object",
                   "name": "Object",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
                   "type": "object"
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
@@ -17247,12 +17700,16 @@
                   "description": "Enable side speed",
                   "name": "EnableSideSpeed",
                   "type": "yesorno"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "Check if the slider is being dragged.",
               "fullName": "Being dragged",
@@ -17261,6 +17718,8 @@
               "name": "IsBeingDragged",
               "sentence": "_PARAM0_ is being dragged",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Enable wall sliding.",
               "fullName": "Slide on wall",
               "functionType": "Action",
@@ -18352,6 +18811,9 @@
               "functionType": "Condition",
               "name": "CanDive",
               "sentence": "_PARAM0_ can dive",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -18366,22 +18828,29 @@
                         {
                           "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "value": "DraggableBehavior::Dragged"
                           },
                           "parameters": [
                             "Thumb",
                             "Draggable"
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "PlatformBehavior::IsJumping"
                           },
                           "parameters": [
                             "Object",
                             "PlatformerCharacter"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         },
                         {
                           "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "value": "PanelSpriteSlider::ButtonFSM::IsPressed"
                           },
@@ -18403,6 +18872,8 @@
                         }
                       ]
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "PlatformBehavior::IsFalling"
                           },
                           "parameters": [
@@ -18421,6 +18892,9 @@
                         "Object",
                         "Behavior"
                       ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     }
                   ],
@@ -18440,6 +18914,7 @@
                 {
                   "description": "Object",
                   "name": "Object",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
                   "type": "object"
@@ -18524,13 +18999,19 @@
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
                   "description": "Behavior",
                   "name": "Behavior",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::Slider",
+=======
+                  "supplementaryInformation": "AdvancedJump::DiveDash",
+>>>>>>> Stashed changes
 =======
                   "supplementaryInformation": "AdvancedJump::DiveDash",
 >>>>>>> Stashed changes
@@ -18540,6 +19021,7 @@
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "the minimum value of the slider.",
               "fullName": "Minimum value",
@@ -18818,11 +19300,16 @@
               "name": "IsLabelShown",
               "sentence": "_PARAM0_ label is shown",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Check if the object is diving.",
               "fullName": "Is diving",
               "functionType": "Condition",
               "name": "IsDiving",
               "sentence": "_PARAM0_ is diving",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -18831,16 +19318,22 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::PropertyShowLabelAtChanges"
                       },
                       "parameters": [
                         "Object"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::DiveDash::PropertyIsDiving"
                       },
                       "parameters": [
                         "Object",
                         "Behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -18862,6 +19355,7 @@
                   "description": "Object",
                   "name": "Object",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
                   "type": "object"
                 }
@@ -18876,6 +19370,8 @@
               "name": "SetLabelShown",
               "sentence": "Show the label of _PARAM0_: _PARAM1_",
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
@@ -18965,6 +19461,9 @@
               "functionType": "Action",
               "name": "doStepPreEvents",
               "sentence": "",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -18974,11 +19473,14 @@
                       "type": {
                         "inverted": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "GetArgumentAsBoolean"
                       },
                       "parameters": [
                         "\"Value\""
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                       },
                       "parameters": [
@@ -18995,6 +19497,9 @@
                         "Object",
                         "PlatformerCharacter",
                         "\"Right\""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -19002,6 +19507,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyShowLabelAtChanges"
                       },
@@ -19018,6 +19524,8 @@
                         "Label"
                       ]
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::HorizontalDash::SetPropertyLastDirectionIsLeft"
                       },
                       "parameters": [
@@ -19025,6 +19533,9 @@
                         "Behavior",
                         "no"
                       ]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                     }
                   ]
@@ -19035,11 +19546,14 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "GetArgumentAsBoolean"
                       },
                       "parameters": [
                         "\"Value\""
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
                       },
                       "parameters": [
@@ -19057,6 +19571,9 @@
                         "Object",
                         "PlatformerCharacter",
                         "\"Right\""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -19064,6 +19581,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetPropertyShowLabelAtChanges"
                       },
@@ -19156,6 +19674,8 @@
               "events": [
                 {
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::HorizontalDash::SetPropertyLastDirectionIsLeft"
                       },
                       "parameters": [
@@ -19167,11 +19687,15 @@
                   ]
                 },
                 {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::Slider::Size"
                       },
@@ -19181,6 +19705,8 @@
                         ">",
                         "0",
 =======
+=======
+>>>>>>> Stashed changes
                         "inverted": true,
                         "value": "AdvancedJump::HorizontalDash::IsDashing"
                       },
@@ -19236,6 +19762,9 @@
                       "parameters": [
                         "Object",
                         "Behavior",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                         ""
                       ]
@@ -19245,6 +19774,7 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       "conditions": [],
                       "actions": [
@@ -19257,6 +19787,8 @@
                             "=",
                             "Object.FullBarWidth() * (FillBar.Slider::Value() - FillBar.Slider::MinValue()) / FillBar.Slider::Size()"
 =======
+=======
+>>>>>>> Stashed changes
                       "conditions": [
                         {
                           "type": {
@@ -19278,12 +19810,16 @@
                             "PlatformerConfigurationStack",
                             "\"HorizontalDashGravity\"",
                             ""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
                       ]
                     },
                     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -19307,6 +19843,8 @@
                             "=",
                             "FillBar.CenterY()"
 =======
+=======
+>>>>>>> Stashed changes
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -19527,12 +20065,16 @@
                                 }
                               ]
                             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
                       ]
                     },
                     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -19546,6 +20088,8 @@
                             "=",
                             "ToString(Object.Value())"
 =======
+=======
+>>>>>>> Stashed changes
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -19579,11 +20123,15 @@
                           "parameters": [
                             "Object",
                             "PlatformerCharacter"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         },
                         {
                           "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "value": "SetCenterX"
                           },
@@ -19592,6 +20140,8 @@
                             "=",
                             "Thumb.CenterX()"
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "PlatformBehavior::SimulateRightKey"
                           },
                           "parameters": [
@@ -19644,11 +20194,15 @@
                             "PlatformerCharacter",
                             "<=",
                             "Object.PlatformerConfigurationStack::UsualMaxSpeed()"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         },
                         {
                           "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "value": "MettreY"
                           },
@@ -19667,6 +20221,8 @@
                             "=",
                             "-Object.Angle()"
 =======
+=======
+>>>>>>> Stashed changes
                             "value": "PlatformBehavior::CurrentSpeed"
                           },
                           "parameters": [
@@ -19705,12 +20261,16 @@
                                 ""
                               ]
                             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                           ]
                         }
                       ]
                     }
                   ]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                 }
               ],
@@ -19850,6 +20410,8 @@
                   "comment": "Pass configuration to the behavior and update children."
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -19857,6 +20419,7 @@
                   "actions": [
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetMinValue"
                       },
@@ -19866,6 +20429,8 @@
                         "Object.PropertyMinValue()",
                         "Object.PropertyMaxValue()",
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::HorizontalDash::SetPropertyDashKeyIsPressed"
                       },
                       "parameters": [
@@ -19977,12 +20542,16 @@
                         "PlatformerConfigurationStack",
                         "DashSustainGravity",
                         "\"HorizontalDashGravity\"",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                         ""
                       ]
                     },
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetMaxValue"
                       },
@@ -19992,6 +20561,8 @@
                         "Object.PropertyMaxValue()",
                         "Object.PropertyMaxValue()"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::PlatformerConfigurationStack::ConfigureMaxSpeed"
                       },
                       "parameters": [
@@ -20000,11 +20571,15 @@
                         "DashSustainSpeedMax",
                         "\"HorizontalDash\"",
                         ""
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     },
                     {
                       "type": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                         "value": "PanelSpriteSlider::PanelSpriteSlider::SetStepSize"
                       },
@@ -20014,6 +20589,8 @@
                         "Object.PropertyStepSize()",
                         "Object.PropertyMaxValue()"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "AdvancedJump::PlatformerConfigurationStack::ConfigureAcceleration"
                       },
                       "parameters": [
@@ -20118,6 +20695,9 @@
                             ""
                           ]
                         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -20129,9 +20709,12 @@
                   "description": "Object",
                   "name": "Object",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
                   "type": "object"
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
@@ -20139,12 +20722,16 @@
                   "name": "Behavior",
                   "supplementaryInformation": "AdvancedJump::HorizontalDash",
                   "type": "behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
               "objectGroups": []
             },
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "description": "De/activate interactions with the button.",
               "fullName": "De/activate interactions",
@@ -20254,11 +20841,16 @@
               "name": "IsActivated",
               "sentence": "Interactions on _PARAM0_ are activated",
 =======
+=======
+>>>>>>> Stashed changes
               "description": "Check if the object is dashing.",
               "fullName": "Is dashing",
               "functionType": "Condition",
               "name": "IsDashing",
               "sentence": "_PARAM0_ is dashing",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "events": [
                 {
@@ -20267,12 +20859,15 @@
                     {
                       "type": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                         "value": "BehaviorActivated"
                       },
                       "parameters": [
                         "Background",
                         "ButtonFSM"
 =======
+=======
+>>>>>>> Stashed changes
                         "value": "CompareObjectTimer"
                       },
                       "parameters": [
@@ -20280,6 +20875,9 @@
                         "\"__PlatformerDash_SustainTime\"",
                         ">=",
                         "0"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                       ]
                     }
@@ -20301,9 +20899,12 @@
                   "description": "Object",
                   "name": "Object",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                   "supplementaryInformation": "PanelSpriteSlider::PanelSpriteSlider",
                   "type": "object"
 =======
+=======
+>>>>>>> Stashed changes
                   "type": "object"
                 },
                 {
@@ -20457,6 +21058,9 @@
                   "name": "Behavior",
                   "supplementaryInformation": "AdvancedJump::HorizontalDash",
                   "type": "behavior"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 }
               ],
@@ -20465,6 +21069,7 @@
           ],
           "propertyDescriptors": [
             {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "value": "0",
               "type": "Number",
@@ -20477,6 +21082,8 @@
               ],
               "name": "BarLeftPadding"
 =======
+=======
+>>>>>>> Stashed changes
               "value": "",
               "type": "Behavior",
               "label": "Platformer character behavior",
@@ -20506,11 +21113,15 @@
               "group": "",
               "extraInformation": [],
               "name": "DashInitialSpeed"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             },
             {
               "value": "0",
               "type": "Number",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "label": "Bar top margin",
               "description": "",
@@ -20521,6 +21132,8 @@
               ],
               "name": "BarTopPadding"
 =======
+=======
+>>>>>>> Stashed changes
               "label": "Sustain minimum duration",
               "description": "",
               "group": "Sustain",
@@ -20553,11 +21166,15 @@
               "group": "Sustain",
               "extraInformation": [],
               "name": "DashSustainSpeedMax"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             },
             {
               "value": "0",
               "type": "Number",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "label": "Bar right margin",
               "description": "",
@@ -20580,6 +21197,8 @@
               ],
               "name": "BarBottomPadding"
 =======
+=======
+>>>>>>> Stashed changes
               "label": "Sustain gravity",
               "description": "",
               "group": "Sustain",
@@ -20642,11 +21261,15 @@
               "extraInformation": [],
               "hidden": true,
               "name": "IsSustainning"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             },
             {
               "value": "true",
               "type": "Boolean",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "label": "Show the label when the value is changed",
               "description": "",
@@ -20916,6 +21539,8 @@
         }
       ]
 =======
+=======
+>>>>>>> Stashed changes
               "label": "",
               "description": "",
               "group": "",
@@ -21582,6 +22207,9 @@
         }
       ],
       "eventsBasedObjects": []
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   ],
