@@ -602,7 +602,7 @@
           "AngleVariance": 0,
           "BulletSpeedVariance": 0,
           "AmmoQuantity": 0,
-          "ShotsPerReload": 0,
+          "ShotsPerReload": 1,
           "ReloadDuration": 1,
           "MaxAmmo": 0,
           "ShotsBeforeNextReload": 0,
@@ -793,8 +793,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 16
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -1904,6 +1904,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -2014,6 +2018,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
         },
         {
           "name": "Flippable",
@@ -2140,6 +2148,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -2250,6 +2262,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
         },
         {
           "name": "Flippable",
