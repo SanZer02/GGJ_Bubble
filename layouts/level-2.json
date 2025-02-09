@@ -1004,7 +1004,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Level 1"
+      "target": "BaseLevel"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
