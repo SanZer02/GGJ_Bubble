@@ -29,17 +29,6 @@
       "actions": [
         {
           "type": {
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "2",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySoundCanal"
           },
           "parameters": [
@@ -60,6 +49,14 @@
             "LinearMovement",
             "no"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RoomCamera"
+          ]
         }
       ],
       "events": [
@@ -68,6 +65,17 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "2",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Opacity"
@@ -130,13 +138,36 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RoomBasedCameraMovement::MoveCameraToActiveRoom"
+          },
+          "parameters": [
+            "",
+            "RoomCamera",
+            "Player",
+            "",
+            "1",
+            "2",
+            "0",
+            "-10",
+            "0",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -146,6 +177,7 @@
       "target": "Player"
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
