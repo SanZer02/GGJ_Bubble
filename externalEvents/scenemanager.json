@@ -1,21 +1,8 @@
 {
-  "associatedLayout": "Untitled scene",
-  "name": "BaseLevel",
+  "associatedLayout": "Level 1",
+  "name": "SceneManager",
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "This should've been a game manager, but i forgor and pour all the script in level 1, lmao\nSementara event ini ngerujuk ke Untitled scene"
-    },
-    {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -43,20 +30,23 @@
         },
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "IsDeath",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
             "Gate",
             "LinearMovement",
             "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "RoomCamera"
           ]
         }
       ],
@@ -127,23 +117,49 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "IsDeath",
+            "True",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "RoomBasedCameraMovement::MoveCameraToActiveRoom"
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "FadeObject",
+            "Tween",
+            "\"FadeOut\"",
+            "255",
+            "\"linear\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "RoomCamera",
-            "Player",
-            "",
-            "1",
-            "2",
-            "0",
-            "-10",
-            "0",
-            ""
+            "CurrentSceneName()"
           ]
         }
       ]
@@ -154,28 +170,40 @@
       "actions": []
     },
     {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "Player",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TO DO ADD PAUSE & RESUME"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TO DO ADD CHECKPOINT"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TO DO ADD RESTART"
     }
   ]
 }

@@ -739,7 +739,21 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "SceneManager"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "BaseLevel"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player"
     },
     {
       "disabled": true,
