@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6244537826600015,
+    "zoomFactor": 0.5843784410740952,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -521,8 +521,8 @@
       "name": "NextLevel",
       "persistentUuid": "acdd1af3-904e-4de0-86d0-fef06e18eec0",
       "width": 64,
-      "x": 96,
-      "y": 224,
+      "x": 416,
+      "y": 288,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -610,7 +610,6 @@
       "comment": "Camera"
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -625,36 +624,12 @@
       "actions": [
         {
           "type": {
-            "value": "ZoomCamera"
-          },
-          "parameters": [
-            "",
-            "2",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Audio\\level 2.mp3",
-            "1",
-            "yes",
-            "100",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
-            "Gate",
-            "LinearMovement",
-            "no"
+            "Player",
+            "PlatformerObject",
+            "yes"
           ]
         }
       ],
@@ -915,11 +890,123 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
           },
           "parameters": [
             "",
-            "\"Level 2\""
+            "BlackBoxHalf1_Hor",
+            "1980",
+            "0",
+            "\"EffectLayer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "BlackBoxHalf1_Hor",
+            "Resizable",
+            "1280",
+            "360"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BlackBoxHalf2_Hor",
+            "-1980",
+            "360",
+            "\"EffectLayer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "BlackBoxHalf2_Hor",
+            "Resizable",
+            "1280",
+            "360"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BlackBoxHalf1_Hor",
+            "Tween",
+            "\"shiftLeft\"",
+            "0",
+            "0",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BlackBoxHalf2_Hor",
+            "Tween",
+            "\"shiftRight\"",
+            "0",
+            "360",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "EffectSplitScreen",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 2\""
+              ]
+            }
           ]
         }
       ]
@@ -1407,6 +1494,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "EffectLayer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
