@@ -14,22 +14,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::AddObjectOpacityTween"
-          },
-          "parameters": [
-            "FadeObject",
-            "Tween",
-            "\"DeathFadeIn\"",
-            "255",
-            "\"linear\"",
-            "500",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -129,6 +114,16 @@
             ">",
             "CursorX()"
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -166,6 +161,16 @@
             "Player",
             ">",
             "CursorX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            ""
           ]
         }
       ],
@@ -278,6 +283,16 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -313,7 +328,18 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {

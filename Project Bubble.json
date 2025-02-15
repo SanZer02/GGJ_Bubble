@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 221,
+    "build": 224,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,6 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Project Bubble",
     "description": "",
@@ -1446,7 +1445,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "FadeObject",
+      "name": "Pause_Object",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1850,7 +1849,7 @@
         "objectName": "Spike"
       },
       {
-        "objectName": "FadeObject"
+        "objectName": "Pause_Object"
       },
       {
         "objectName": "BlackBoxHalf1_Hor"
@@ -1863,7 +1862,16 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "PauseObjects",
+      "objects": [
+        {
+          "name": "Pause_Object"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "SceneNumber",
@@ -1874,6 +1882,21 @@
       "name": "EffectSplitScreen",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Pause",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "CanPause",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "PauseTrigger",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1966,6 +1989,5 @@
       "referenceTo": "/eventsFunctionsExtensions/roombasedcameramovement"
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
