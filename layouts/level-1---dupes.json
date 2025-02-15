@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.3389693172845651,
+    "zoomFactor": 0.31119749424452653,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -927,7 +927,8 @@
           },
           "parameters": [
             "",
-            "\"Level 2\""
+            "\"Level 2 - dupes\"",
+            ""
           ]
         }
       ]
