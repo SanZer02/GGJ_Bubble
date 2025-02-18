@@ -1376,6 +1376,10 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "TimedBackAndForthMirroredMovement",
+      "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    },
+    {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
     }

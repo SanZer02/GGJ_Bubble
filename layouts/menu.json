@@ -1058,6 +1058,10 @@
       "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
+      "name": "TimedBackAndForthMirroredMovement",
+      "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    },
+    {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
     }
