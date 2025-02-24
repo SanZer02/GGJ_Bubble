@@ -271,6 +271,17 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "CanShoot",
+                "False",
+                ""
+              ]
             }
           ]
         }

@@ -1502,7 +1502,7 @@
       "isLocked": false,
       "name": "UILayer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
