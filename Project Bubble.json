@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "a7ded2c6-1bee-4d07-a660-e18000456e5c",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "scaleOuter",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Project Bubble",
@@ -525,6 +525,96 @@
         "name": "assets\\NewSprite4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Orange Bubble Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c7108719eeb51696e6b9bcca1280e5403f7867491f3b02101f759d0e55b112fe_Orange Bubble Button_Hovered.png",
+          "name": "Orange Bubble Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Orange Bubble Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Idle.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c97e04689076f4c138d10a0dde322d982b332595bce0fe8007ce14bb7a22af21_Orange Bubble Button_Idle.png",
+          "name": "Orange Bubble Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Orange Bubble Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4c35e1cf340a1121bb63e0d0ef834876be8b9427c5a30bafb2e043640d27aab4_Orange Bubble Button_Pressed.png",
+          "name": "Orange Bubble Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Poppins-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Poppins-Medium.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+          "name": "Poppins-Medium.ttf"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Kenney Mini Square.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Blue Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1ffd07cb739df2a909155dd3057f6def46b833ced6ef1a09527b6ea59e88e464_Blue Button_Hovered.png",
+          "name": "Blue Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eeac55458b66fb84f756b38085fbf7d1e079c39363c942abd35ea9d0939465ce_Blue Button_Idle.png",
+          "name": "Blue Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f0ede8843d544f6e84bc09299a8aabffbce558966f25af98f7b47ab1648217ce_Blue Button_Pressed.png",
+          "name": "Blue Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2296,79 +2386,298 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
+      "name": "ResumeButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Resume",
+          "font": "assets\\Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 99,
+            "g": 69,
+            "r": 28
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Resume",
+            "font": "assets\\Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "28;69;99"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
+      "name": "QuitButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Quit",
+          "font": "assets\\Kenney Mini Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 99,
+            "g": 69,
+            "r": 28
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Quit",
+            "font": "assets\\Kenney Mini Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "28;69;99"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Player"
+        "folderName": "Camera",
+        "children": [
+          {
+            "objectName": "RoomCamera"
+          }
+        ]
       },
       {
-        "objectName": "Gun"
+        "folderName": "UI",
+        "children": [
+          {
+            "folderName": "In-game UI",
+            "children": [
+              {
+                "objectName": "ResumeButton"
+              },
+              {
+                "objectName": "QuitButton"
+              },
+              {
+                "objectName": "Pause_Object"
+              }
+            ]
+          },
+          {
+            "folderName": "Misc.",
+            "children": [
+              {
+                "objectName": "BlackBoxHalf1_Hor"
+              },
+              {
+                "objectName": "BlackBoxHalf2_Hor"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "folderName": "Player",
+        "children": [
+          {
+            "objectName": "Collect"
+          },
+          {
+            "objectName": "Gun"
+          },
+          {
+            "objectName": "Player"
+          }
+        ]
+      },
+      {
+        "folderName": "Objects",
+        "children": [
+          {
+            "folderName": "Platform",
+            "children": [
+              {
+                "objectName": "MovingPlatform_left_to_right"
+              },
+              {
+                "objectName": "TiledPlatform"
+              },
+              {
+                "objectName": "MovingPlatform"
+              }
+            ]
+          },
+          {
+            "folderName": "Interactable",
+            "children": [
+              {
+                "objectName": "Checkpoint"
+              },
+              {
+                "objectName": "Finish"
+              },
+              {
+                "objectName": "NextLevel2"
+              },
+              {
+                "objectName": "NextLevel"
+              },
+              {
+                "objectName": "Gate_horizontal"
+              },
+              {
+                "objectName": "Gate"
+              },
+              {
+                "objectName": "Trigger"
+              }
+            ]
+          },
+          {
+            "folderName": "Hazards",
+            "children": [
+              {
+                "objectName": "Sawblade_square"
+              },
+              {
+                "objectName": "Sawblade_Vertical"
+              },
+              {
+                "objectName": "Sawblade_Horizontal"
+              },
+              {
+                "objectName": "Spike"
+              }
+            ]
+          }
+        ]
       },
       {
         "objectName": "Bullet"
       },
       {
         "objectName": "Bullet2"
-      },
-      {
-        "objectName": "MovingPlatform"
-      },
-      {
-        "objectName": "Trigger"
-      },
-      {
-        "objectName": "TiledPlatform"
-      },
-      {
-        "objectName": "Gate"
-      },
-      {
-        "objectName": "Gate_horizontal"
-      },
-      {
-        "objectName": "Finish"
-      },
-      {
-        "objectName": "NextLevel"
-      },
-      {
-        "objectName": "NextLevel2"
-      },
-      {
-        "objectName": "Collect"
-      },
-      {
-        "objectName": "MovingPlatform_left_to_right"
-      },
-      {
-        "objectName": "Spike"
-      },
-      {
-        "objectName": "Pause_Object"
-      },
-      {
-        "objectName": "BlackBoxHalf1_Hor"
-      },
-      {
-        "objectName": "BlackBoxHalf2_Hor"
-      },
-      {
-        "objectName": "RoomCamera"
-      },
-      {
-        "objectName": "Sawblade_Horizontal"
-      },
-      {
-        "objectName": "Sawblade_Vertical"
-      },
-      {
-        "objectName": "Sawblade_square"
-      },
-      {
-        "objectName": "Checkpoint"
       }
     ]
   },
@@ -2378,6 +2687,12 @@
       "objects": [
         {
           "name": "Pause_Object"
+        },
+        {
+          "name": "ResumeButton"
+        },
+        {
+          "name": "QuitButton"
         }
       ]
     }

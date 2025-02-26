@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3553434558817062,
+    "zoomFactor": 0.35534345588170624,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -841,6 +841,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "UILayer",
+      "name": "ResumeButton",
+      "persistentUuid": "8028f5e7-861b-48d2-ad5e-5e80ea570c41",
+      "width": 288,
+      "x": 512,
+      "y": 182,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "UILayer",
+      "name": "QuitButton",
+      "persistentUuid": "23bb69e5-e6b5-4871-9a1d-58de9d5add9a",
+      "width": 288,
+      "x": 512,
+      "y": 384,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1062,7 +1096,6 @@
       "comment": "Player"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
