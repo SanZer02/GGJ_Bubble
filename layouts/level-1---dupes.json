@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.35534345588170624,
+    "zoomFactor": 0.3553434558817063,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -150,7 +150,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "737c752f-024b-4c1b-a440-0a0fed760ed5",
       "width": 640,
@@ -167,7 +167,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "f3750134-964e-4793-8dae-4e8d1f3aa134",
       "width": 640,
@@ -184,7 +184,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "84c7e0e5-fb39-443f-bcfd-737c093eac21",
       "width": 640,
@@ -201,7 +201,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "b979e6c0-c4a3-4e0b-9036-24a89a6bcaa6",
       "width": 640,
@@ -218,7 +218,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "9bc4cbd9-862d-4a69-94b9-0616b271ff57",
       "width": 640,
@@ -235,7 +235,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "395410ac-fc6d-43bc-9c37-3951a6da879f",
       "width": 640,
@@ -252,7 +252,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "39fbc999-c702-418b-8169-252f2c00a9fa",
       "width": 640,
@@ -269,7 +269,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "11a67aba-9c2f-48b7-9843-26f247b3c41f",
       "width": 640,
@@ -286,7 +286,7 @@
       "depth": 1,
       "height": 384,
       "keepRatio": true,
-      "layer": "",
+      "layer": "CameraLayer",
       "name": "RoomCamera",
       "persistentUuid": "9124edc5-6f71-4862-9f70-2a18e36a14c0",
       "width": 640,
@@ -1316,6 +1316,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "CameraLayer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
