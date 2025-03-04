@@ -2131,16 +2131,21 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "TimedBackAndForthMirroredMovement",
-          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
-          "Flippable": "Flippable",
-          "Vertical": false,
-          "Speed": 400,
-          "Distance": 550,
-          "Timeout": 1,
-          "StartPosition": 0,
-          "LastPosition": 0,
-          "Timecheck": 0
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 200,
+          "Height": 0,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 2,
+          "VerticalEdgeDuration": 1,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutCubic",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
         }
       ],
       "animations": [
@@ -2206,17 +2211,17 @@
         {
           "name": "RectangleMovement",
           "type": "RectangleMovement::RectangleMovement",
-          "Width": 640,
-          "Height": 384,
+          "Width": 80,
+          "Height": 80,
           "Clockwise": true,
           "HorizontalEdgeDuration": 1,
-          "VerticalEdgeDuration": 0.75,
+          "VerticalEdgeDuration": 1,
           "Left": 1.00000000000091,
           "Top": 1.00000000000091,
           "Progress": 1.00000000000091,
           "OldX": 1.00000000000091,
           "OldY": 1.00000000000091,
-          "Easing": "easeInOutSine",
+          "Easing": "linear",
           "InitialPosition": "Top-left corner",
           "ToogleClockwise": false
         }
@@ -2282,16 +2287,21 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "TimedBackAndForthMirroredMovement",
-          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
-          "Flippable": "Flippable",
-          "Vertical": true,
-          "Speed": 300,
-          "Distance": 384,
-          "Timeout": 1,
-          "StartPosition": 0,
-          "LastPosition": 0,
-          "Timecheck": 0
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 0,
+          "Height": 100,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 1,
+          "VerticalEdgeDuration": 2,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutCubic",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
         }
       ],
       "animations": [
@@ -3029,6 +3039,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/trap-playground"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-0---tutorial"
     },
     {
@@ -3114,6 +3128,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
   "externalLayouts": []
