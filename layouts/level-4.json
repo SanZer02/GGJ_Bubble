@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.19561100536769396,
+    "zoomFactor": 0.18923010380623073,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -534,6 +534,21 @@
         "tileSize": 32,
         "tilesWithHitBox": "0,1,2,3"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Coba2",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "assets\\Tile_SET1.png",
+        "rowCount": 12,
+        "columnCount": 12,
+        "tileSize": 16,
+        "tilesWithHitBox": "120,121,122,123,124,52,64,76,53,65,77,54,66,78,48,60,72,49,61,73,50,62,74,0,12,24,1,13,25,2,14,26,4,16,28,5,17,29,6,18,30,8,20,32,9,21,33,10,22,34"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -541,6 +556,9 @@
     "children": [
       {
         "objectName": "Placeholder_Tile"
+      },
+      {
+        "objectName": "Coba2"
       }
     ]
   },
