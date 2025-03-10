@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 221,
+    "build": 224,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,6 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Project Bubble",
     "description": "",
@@ -654,6 +653,14 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Tile_SET1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
       }
@@ -3143,6 +3150,5 @@
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
