@@ -694,6 +694,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FlashEffect",
           "type": "Flash::FlashEffect",
           "Effect": "Effect",
@@ -703,6 +704,7 @@
           "EffectName": ""
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "maxFallingSpeed": 500,
@@ -721,6 +723,10 @@
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -1575,7 +1581,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
