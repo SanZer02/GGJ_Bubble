@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3553434558817063,
+    "zoomFactor": 4.1349911379958995,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -875,6 +875,27 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTileMap",
+      "persistentUuid": "dad11792-f397-4d95-ba4d-f1ccef5886bb",
+      "width": 0,
+      "x": 160,
+      "y": 816,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":10,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[5,5,5,5,5,5,5,5,5,5],[17,17,17,17,17,17,17,17,17,17]]}]}"
+        }
+      ],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -900,6 +921,21 @@
         "tileSize": 16,
         "tilesWithHitBox": "144,166,188,145,167,189,14,124,146,168,190,15,125,147,169,191,104,126,148,170,192,105,127,149,171,193,84,106,128,150,172,194,85,107,129,151,173,195,64,86,108,130,152,174,196,65,87,109,131,153,175,197,0,22,44,66,88,110,132,154,176,1,23,45,67,89,111,133,155,177,2,24,46,68,90,112,134,156,178,3,25,47,69,91,113,135,157,179,4,26,48,70,92,114,136,158,180,5,27,49,71,159,181,6,28,50,72,94,116,138,160,182,7,29,51,73,95,117,139,161,183,8,30,52,74,96,118,140,162,184,9,31,53,75,97,119,141,163,185,10,32,54,76,98,120,142,164,186,11,33,55,77,99,121,143,165,187"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewTileMap",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "assets\\Tile_SET1.png",
+        "rowCount": 12,
+        "columnCount": 12,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,12,24,1,13,25,2,14,26,4,16,28,5,17,29,6,18,30,8,20,32,9,21,33,10,22,34,48,60,72,49,61,73,50,62,74,52,64,76,53,65,77,54,66,78"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -907,6 +943,9 @@
     "children": [
       {
         "objectName": "PixelPlatformer18x18"
+      },
+      {
+        "objectName": "NewTileMap"
       }
     ]
   },
