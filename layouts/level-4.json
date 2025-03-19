@@ -1834,82 +1834,6 @@
         "tileSize": 16,
         "tilesWithHitBox": "120,121,122,123,124,52,64,76,53,65,77,54,66,78,48,60,72,49,61,73,50,62,74,0,12,24,1,13,25,2,14,26,4,16,28,5,17,29,6,18,30,8,20,32,9,21,33,10,22,34"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Through_Platform",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "Jumpthru",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\JumpThrough_Platform.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3.5,
-                        "y": 6
-                      },
-                      {
-                        "x": 61,
-                        "y": 6
-                      },
-                      {
-                        "x": 63,
-                        "y": 7.5
-                      },
-                      {
-                        "x": 52,
-                        "y": 13
-                      },
-                      {
-                        "x": 12.5,
-                        "y": 13
-                      },
-                      {
-                        "x": 1,
-                        "y": 7.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1920,9 +1844,6 @@
       },
       {
         "objectName": "Coba2"
-      },
-      {
-        "objectName": "Through_Platform"
       }
     ]
   },

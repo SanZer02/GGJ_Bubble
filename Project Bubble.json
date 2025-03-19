@@ -744,6 +744,14 @@
         "name": "Source\\Collision Masks",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3569,6 +3577,82 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Through_Platform",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\JumpThrough_Platform.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 61,
+                        "y": 6
+                      },
+                      {
+                        "x": 63,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 13
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 1,
+                        "y": 7.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3633,45 +3717,48 @@
             "folderName": "Platform",
             "children": [
               {
+                "folderName": "Interactable",
+                "children": [
+                  {
+                    "objectName": "Checkpoint"
+                  },
+                  {
+                    "objectName": "Finish"
+                  },
+                  {
+                    "objectName": "NextLevel3"
+                  },
+                  {
+                    "objectName": "NextLevel2"
+                  },
+                  {
+                    "objectName": "NextLevel"
+                  },
+                  {
+                    "objectName": "Gate_horizontal"
+                  },
+                  {
+                    "objectName": "Gate"
+                  },
+                  {
+                    "objectName": "Trigger"
+                  },
+                  {
+                    "objectName": "trigger_2"
+                  }
+                ]
+              },
+              {
                 "objectName": "MovingPlatform_left_to_right"
+              },
+              {
+                "objectName": "Through_Platform"
               },
               {
                 "objectName": "TiledPlatform"
               },
               {
                 "objectName": "MovingPlatform"
-              }
-            ]
-          },
-          {
-            "folderName": "Interactable",
-            "children": [
-              {
-                "objectName": "Checkpoint"
-              },
-              {
-                "objectName": "Finish"
-              },
-              {
-                "objectName": "NextLevel3"
-              },
-              {
-                "objectName": "NextLevel2"
-              },
-              {
-                "objectName": "NextLevel"
-              },
-              {
-                "objectName": "Gate_horizontal"
-              },
-              {
-                "objectName": "Gate"
-              },
-              {
-                "objectName": "Trigger"
-              },
-              {
-                "objectName": "trigger_2"
               }
             ]
           },
