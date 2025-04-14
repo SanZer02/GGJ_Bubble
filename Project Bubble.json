@@ -807,7 +807,7 @@
       {
         "file": "assets/Left_hazard.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Left_hazard.png\"}",
         "name": "Left_hazard",
         "smoothed": false,
         "userAdded": false
@@ -817,6 +817,86 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Big_Hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right_hazard_small.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right_hazard_small",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bot_hazard_small.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bot_hazard_small",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_hazard_big.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left_hazard_big",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right_hazard_big.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right_hazard_big.png\"}",
+        "name": "right_hazard_big",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right_hazard_big2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right_hazard_big2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_hazard_big2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left_hazard_big2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Med_Hazard.png\"}",
+        "name": "Med_Hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_bot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Med_Hazard_bot.png\"}",
+        "name": "Med_Hazard_bot",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Med_Hazard_top",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Med_Hazard_left",
         "smoothed": false,
         "userAdded": false
       }
@@ -1730,7 +1810,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Collect",
       "type": "Sprite",
@@ -1770,20 +1850,52 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
+                        "x": 2,
+                        "y": 23.5
                       },
                       {
                         "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 2
+                      },
+                      {
+                        "x": 30,
+                        "y": 8
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      },
+                      {
+                        "x": 30,
+                        "y": 24
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 30
+                      },
+                      {
+                        "x": 16,
                         "y": 32
+                      },
+                      {
+                        "x": 8,
+                        "y": 30
                       }
                     ]
                   ]
@@ -3732,7 +3844,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "top_hazard",
+          "name": "top_hazard_small",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3854,7 +3966,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Left_hazard",
+          "name": "Left_hazard_small",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3880,6 +3992,372 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 9,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Right_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right_hazard_small",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Big_hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "right_hazard_big",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right_hazard_big2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_bot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "bot_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bot_hazard_small",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Big_hazard_left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left_hazard_big",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left_hazard_big2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_bot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_bot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_bot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 5
+                      },
+                      {
+                        "x": 16,
+                        "y": 5
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_top",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
                         "x": 0,
                         "y": 0
                       },
@@ -3889,11 +4367,133 @@
                       },
                       {
                         "x": 16,
-                        "y": 7
+                        "y": 11
                       },
                       {
                         "x": 0,
-                        "y": 7
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
                       }
                     ]
                   ]
@@ -4016,13 +4616,42 @@
             "folderName": "Hazards",
             "children": [
               {
-                "objectName": "small_hazard_top"
-              },
-              {
-                "objectName": "small_hazard_Left"
-              },
-              {
-                "objectName": "Big_Hazard"
+                "folderName": "collider",
+                "children": [
+                  {
+                    "objectName": "med_Hazard_left"
+                  },
+                  {
+                    "objectName": "med_Hazard_right"
+                  },
+                  {
+                    "objectName": "med_Hazard_top"
+                  },
+                  {
+                    "objectName": "med_Hazard_bot"
+                  },
+                  {
+                    "objectName": "Big_Hazard"
+                  },
+                  {
+                    "objectName": "Big_hazard_left"
+                  },
+                  {
+                    "objectName": "Big_hazard_right"
+                  },
+                  {
+                    "objectName": "small_hazard_right"
+                  },
+                  {
+                    "objectName": "small_hazard_Left"
+                  },
+                  {
+                    "objectName": "small_hazard_bot"
+                  },
+                  {
+                    "objectName": "small_hazard_top"
+                  }
+                ]
               },
               {
                 "objectName": "Spear"
@@ -4080,6 +4709,33 @@
         },
         {
           "name": "Big_Hazard"
+        },
+        {
+          "name": "small_hazard_Left"
+        },
+        {
+          "name": "small_hazard_right"
+        },
+        {
+          "name": "Big_hazard_right"
+        },
+        {
+          "name": "small_hazard_bot"
+        },
+        {
+          "name": "Big_hazard_left"
+        },
+        {
+          "name": "med_Hazard_bot"
+        },
+        {
+          "name": "med_Hazard_top"
+        },
+        {
+          "name": "med_Hazard_right"
+        },
+        {
+          "name": "med_Hazard_left"
         }
       ]
     }
@@ -4134,7 +4790,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1---dupes2"
+      "referenceTo": "/layouts/tutorials_ver2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

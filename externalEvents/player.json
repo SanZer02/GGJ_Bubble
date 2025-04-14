@@ -1011,7 +1011,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1177,7 +1176,7 @@
               },
               "parameters": [
                 "Collect",
-                "Spike",
+                "Hazards",
                 "",
                 "",
                 ""
@@ -1598,7 +1597,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
