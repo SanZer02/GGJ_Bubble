@@ -1,0 +1,1055 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Tutorials_95ver2",
+  "name": "Tutorials_ver2",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6455105703311913,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "501370db-c4d1-4965-8223-f929d51f9cfe",
+      "width": 0,
+      "x": 208,
+      "y": 752,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Gun",
+      "persistentUuid": "6ae4b55a-79eb-49d5-b9a0-84989782e05c",
+      "width": 0,
+      "x": 229,
+      "y": 759,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Pause_Object",
+      "persistentUuid": "e9d8c00d-df6a-4d18-8d1d-4e396ab1277e",
+      "width": 0,
+      "x": -128,
+      "y": 0,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NextLevel",
+      "persistentUuid": "acdd1af3-904e-4de0-86d0-fef06e18eec0",
+      "width": 64,
+      "x": 0,
+      "y": 752,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.1576086956521738,
+      "height": 240,
+      "layer": "CameraLayer",
+      "name": "RoomCamera",
+      "persistentUuid": "737c752f-024b-4c1b-a440-0a0fed760ed5",
+      "width": 432,
+      "x": 112,
+      "y": 608,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "UILayer",
+      "name": "Pause_Object",
+      "persistentUuid": "455c3a9c-c0b5-42d3-a5c8-cc23c5d75dbf",
+      "width": 864,
+      "x": 224,
+      "y": 128,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "UILayer",
+      "name": "ResumeButton",
+      "persistentUuid": "8028f5e7-861b-48d2-ad5e-5e80ea570c41",
+      "width": 288,
+      "x": 512,
+      "y": 182,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "UILayer",
+      "name": "QuitButton",
+      "persistentUuid": "23bb69e5-e6b5-4871-9a1d-58de9d5add9a",
+      "width": 288,
+      "x": 512,
+      "y": 384,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tileset_test01",
+      "persistentUuid": "4bc9cb4c-f7f2-4b3c-9d63-8461bcf9e9e1",
+      "width": 0,
+      "x": 112,
+      "y": 336,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":80,\"dimY\":39,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[68,-1,-1,-1,-1,-1,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,-1,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,13,13,56,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,70,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,13,13,29,66,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,56,57,57,57,57,57,57,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,70,13,13,13,56,57,57,57,57,58,13,13,29,66,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,68,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,54,-1,-1,-1,70,13,13,13,68,74,74,74,74,70,13,13,29,66,-1,-1,-1,-1,-1,-1,0,81,2,-1,-1,-1,-1,-1,-1,-1,70,13,13,68,-1,-1,-1,-1,-1,-1,16,57,57,57,57,58,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,54,-1,-1,-1,29,29,29,29,29,-1,-1,-1,-1,70,13,13,68,-1,-1,-1,-1,-1,-1,-1,12,13,14,-1,-1,-1,-1,-1,-1,-1,16,57,57,16,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,54,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,29,57,57,29,-1,-1,-1,-1,-1,-1,-1,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,14,-1,-1,96,97,97,98,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[80,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,14,-1,-1,-1,-1,0,1,1,2,-1,-1,-1,-1,-1,-1,16,1,1,1,1,81,82,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,14,-1,-1,-1,-1,12,13,13,14,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,14,-1,-1,-1,-1,12,13,13,14,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,81,81,81,16,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,14,50,50,50,50,12,13,13,14,48,48,48,48,0,1,82,13,13,13,13,13,82,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,13,13,68,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,1,2,-1,-1,-1,-1],[17,13,13,13,17,29,29,29,29,13,13,13,32,29,29,29,29,34,13,17,17,17,13,13,13,13,13,32,81,81,81,81,1,1,1,1,1,1,1,34,13,13,13,68,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[17,13,13,13,13,17,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,56,57,57,57,57,57,57,57,16,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,13,13,13,13,13,13,13,13,13,56,57,57,57,16,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,100,101,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,13,13,56,57,57,57,57,57,57,57,58,13,13,56,57,57,57,57,57,57,57,58,13,17,13,56,57,57,29,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,112,113,-1,-1,-1,16,57,58,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,70,13,13,68,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,56,57,29,-1,-1,-1,-1,-1,-1,-1,29,57,57,29,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,29,1,1,29,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,17,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,70,13,13,68,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,22,13,13,14,-1,-1,-1,-1],[13,13,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,13,13,13,68,-1,-1,-1,-1,-1,-1,-1,70,17,17,68,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,0,1,1,1,34,13,13,13,13,13,13,13],[13,13,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,57,57,57,16,-1,-1,-1,-1,-1,-1,-1,70,17,17,68,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,12,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,68,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,70,17,17,68,-1,-1,-1,-1,-1,112,113,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,1,1,1,1,1,1,1,1,34,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,80,81,1,1,1,1,1,1,1,1,1,1,1,1,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,1,1,82,17,17,68,-1,-1,-1,-1,-1,124,125,-1,-1,-1,-1,-1,70,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,13,13,13,13,13,80,81,81,81,81,81,29,29,81,81,81,81,81,82,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,13,13,13,13,13,13,17,13,13,13,13,13,13,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,13,17,13,13,13,13,17,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,13,13,13,13,13,13,13,17,13,13,13,13,13,13,14,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,13,13,13,17,13,13,13,17,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,32,1,1,1,1,1,81,1,1,1,1,1,1,1,1,13,13,13,13,13,13,13,13,17,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,13,13,13,13,13,13,13,13,13,13,13,17,17,17,17,17,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.1576086956521738,
+      "height": 240,
+      "layer": "CameraLayer",
+      "name": "RoomCamera",
+      "persistentUuid": "96c56078-59a3-4368-99e8-4ea44dc99ad2",
+      "width": 432,
+      "x": 544,
+      "y": 608,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.1576086956521738,
+      "height": 240,
+      "layer": "CameraLayer",
+      "name": "RoomCamera",
+      "persistentUuid": "18173f26-ad58-4e85-9996-87a903457b75",
+      "width": 432,
+      "x": 544,
+      "y": 368,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.1576086956521738,
+      "height": 240,
+      "layer": "CameraLayer",
+      "name": "RoomCamera",
+      "persistentUuid": "e3724d47-6ebf-4a93-abf9-1b6e6304798f",
+      "width": 432,
+      "x": 112,
+      "y": 368,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "small_hazard_right",
+      "persistentUuid": "319e3335-aa7a-402b-af31-ea38bbf60b40",
+      "width": 16,
+      "x": 128,
+      "y": 416,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "small_hazard_top",
+      "persistentUuid": "0a99a06d-f9e4-4ce9-a113-019f9b49c34b",
+      "width": 64,
+      "x": 272,
+      "y": 416,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "Big_Hazard",
+      "persistentUuid": "2f59ef11-94af-475c-b84e-70abf96d08a3",
+      "width": 48,
+      "x": 208,
+      "y": 448,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "small_hazard_top",
+      "persistentUuid": "98970b42-461a-4003-887a-50dc21777eff",
+      "width": 0,
+      "x": 192,
+      "y": 448,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "small_hazard_top",
+      "persistentUuid": "ebf4841b-5ed4-46cc-976d-68f2c57ab35b",
+      "width": 0,
+      "x": 256,
+      "y": 448,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "small_hazard_bot",
+      "persistentUuid": "a4c4aa23-cf57-467b-87f1-3b2016429893",
+      "width": 64,
+      "x": 192,
+      "y": 560,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "Big_hazard_left",
+      "persistentUuid": "7fc937f8-6df2-4fb9-ac93-52eb0735917e",
+      "width": 16,
+      "x": 400,
+      "y": 384,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "Hazards",
+      "name": "med_Hazard_bot",
+      "persistentUuid": "cd37b6a1-d7bc-4a93-a52c-6dd64a56f872",
+      "width": 64,
+      "x": 320,
+      "y": 560,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "fae726fcddd9340de1efc143ab2d546e968d711e468e50419c60c615ca3ebbbc",
+      "name": "PixelPlatformer18x18",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "tilemap_packed2.png",
+        "rowCount": 10,
+        "columnCount": 22,
+        "tileSize": 16,
+        "tilesWithHitBox": "144,166,188,145,167,189,14,124,146,168,190,15,125,147,169,191,104,126,148,170,192,105,127,149,171,193,84,106,128,150,172,194,85,107,129,151,173,195,64,86,108,130,152,174,196,65,87,109,131,153,175,197,0,22,44,66,88,110,132,154,176,1,23,45,67,89,111,133,155,177,2,24,46,68,90,112,134,156,178,3,25,47,69,91,113,135,157,179,4,26,48,70,92,114,136,158,180,5,27,49,71,159,181,6,28,50,72,94,116,138,160,182,7,29,51,73,95,117,139,161,183,8,30,52,74,96,118,140,162,184,9,31,53,75,97,119,141,163,185,10,32,54,76,98,120,142,164,186,11,33,55,77,99,121,143,165,187"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewTileMap",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "assets\\Tile_SET1.png",
+        "rowCount": 12,
+        "columnCount": 12,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,12,24,1,13,25,2,14,26,4,16,28,5,17,29,6,18,30,8,20,32,9,21,33,10,22,34,48,60,72,49,61,73,50,62,74,52,64,76,53,65,77,54,66,78"
+      }
+    },
+    {
+      "assetStoreId": "6e2e852cf946e51cd3e9cae07d6b0856230d432219e4699a5298cd5a5d6b6d69",
+      "name": "Tileset_test01",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "assets\\tiles_01.png",
+        "rowCount": 13,
+        "columnCount": 12,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,16,32,1,17,33,2,18,34,12,28,13,29,14,30,6,8,26,25,24,9,10,22,20,56,68,80,57,69,81,58,70,82,105,117,129,106,118,130,103,115,100,112,124,101,113,125,96,97,98"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "PixelPlatformer18x18"
+      },
+      {
+        "objectName": "Tileset_test01"
+      },
+      {
+        "objectName": "NewTileMap"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "BaseLevel"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "SceneManager"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Entering the scene",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlackBoxHalf1_Hor",
+                "0",
+                "0",
+                "\"EffectLayer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "BlackBoxHalf1_Hor",
+                "Resizable",
+                "1280",
+                "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BlackBoxHalf2_Hor",
+                "0",
+                "360",
+                "\"EffectLayer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "BlackBoxHalf2_Hor",
+                "Resizable",
+                "1280",
+                "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BlackBoxHalf1_Hor",
+                "Tween",
+                "\"shiftLeft\"",
+                "-1980",
+                "0",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BlackBoxHalf2_Hor",
+                "Tween",
+                "\"shiftRight\"",
+                "1980",
+                "360",
+                "\"linear\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "CanPause",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BlackBoxHalf1_Hor",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BlackBoxHalf2_Hor",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Player"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "NextLevel",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BlackBoxHalf1_Hor",
+            "1980",
+            "0",
+            "\"EffectLayer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "BlackBoxHalf1_Hor",
+            "Resizable",
+            "1280",
+            "360"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "BlackBoxHalf2_Hor",
+            "-1980",
+            "360",
+            "\"EffectLayer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "BlackBoxHalf2_Hor",
+            "Resizable",
+            "1280",
+            "360"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BlackBoxHalf1_Hor",
+            "Tween",
+            "\"shiftLeft\"",
+            "0",
+            "0",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BlackBoxHalf2_Hor",
+            "Tween",
+            "\"shiftRight\"",
+            "0",
+            "360",
+            "\"linear\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "CanPause",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 2 - dupes\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "NextLevel",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2 - dupes\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Hazards",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "CameraLayer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UILayer",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "EffectLayer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LinearMovement",
+      "type": "LinearMovement::LinearMovement"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TimedBackAndForthMirroredMovement",
+      "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

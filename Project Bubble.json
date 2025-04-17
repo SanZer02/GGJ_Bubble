@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 221,
+    "build": 228,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -18,7 +18,6 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Project Bubble",
     "description": "",
@@ -127,7 +126,7 @@
       {
         "file": "Source/Collision Masks.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Source/Collision Masks.png\",\"extension\":\".png\"}",
         "name": "Source\\Collision Masks.png",
         "smoothed": false,
         "userAdded": false
@@ -656,6 +655,250 @@
         "name": "assets\\Tile_SET1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SpearTrap7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SpearTrap7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/JumpThrough_Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JumpThrough_Platform.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Source_Collision Masks2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Source\\Collision Masks",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tilemap_packed5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tilemap_packed5.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/a0abd2e66c8144c233f541584c8d03dd463ff5382d9c3db2c09243d3cfadf5be_tilemap_packed5.png",
+          "name": "tilemap_packed5.png"
+        }
+      },
+      {
+        "file": "assets/tiles_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles_01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_ver01t.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Player_ver01t.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/top_hazard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "top_hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_hazard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Left_hazard.png\"}",
+        "name": "Left_hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Big_Hazard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Big_Hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right_hazard_small.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right_hazard_small",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bot_hazard_small.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bot_hazard_small",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_hazard_big.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left_hazard_big",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right_hazard_big.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right_hazard_big.png\"}",
+        "name": "right_hazard_big",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/right_hazard_big2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "right_hazard_big2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_hazard_big2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left_hazard_big2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Med_Hazard.png\"}",
+        "name": "Med_Hazard",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_bot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Med_Hazard_bot.png\"}",
+        "name": "Med_Hazard_bot",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Med_Hazard_top",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Med_Hazard_left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Med_Hazard_left",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -687,6 +930,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "FlashEffect",
           "type": "Flash::FlashEffect",
           "Effect": "Effect",
@@ -696,6 +940,7 @@
           "EffectName": ""
         },
         {
+          "isFolded": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "maxFallingSpeed": 500,
@@ -714,6 +959,10 @@
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -727,12 +976,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_body1.png",
+                  "image": "assets\\Player_ver01t.png",
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14,
-                      "y": 18.5
+                      "x": 14.5,
+                      "y": 11
                     }
                   ],
                   "originPoint": {
@@ -749,20 +998,20 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
                         "x": 13,
-                        "y": 8
+                        "y": 3
                       },
                       {
-                        "x": 18,
-                        "y": 7
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 18,
-                        "y": 30
-                      },
-                      {
-                        "x": 12,
-                        "y": 30
+                        "x": 4,
+                        "y": 16
                       }
                     ]
                   ]
@@ -781,12 +1030,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_body1.png",
+                  "image": "assets\\Player_ver01t.png",
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14,
-                      "y": 18.5
+                      "x": 14.5,
+                      "y": 11
                     }
                   ],
                   "originPoint": {
@@ -803,32 +1052,32 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
                         "x": 13,
-                        "y": 8
+                        "y": 3
                       },
                       {
-                        "x": 18,
-                        "y": 7
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 18,
-                        "y": 30
-                      },
-                      {
-                        "x": 12,
-                        "y": 30
+                        "x": 4,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_body2.png",
+                  "image": "assets\\Player_ver01t.png",
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14,
-                      "y": 18.5
+                      "x": 14.5,
+                      "y": 11
                     }
                   ],
                   "originPoint": {
@@ -845,32 +1094,32 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
                         "x": 13,
-                        "y": 8
+                        "y": 3
                       },
                       {
-                        "x": 18,
-                        "y": 7
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 18,
-                        "y": 30
-                      },
-                      {
-                        "x": 12,
-                        "y": 30
+                        "x": 4,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_body3.png",
+                  "image": "assets\\Player_ver01t.png",
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14,
-                      "y": 18.5
+                      "x": 14.5,
+                      "y": 11
                     }
                   ],
                   "originPoint": {
@@ -887,32 +1136,32 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
                         "x": 13,
-                        "y": 8
+                        "y": 3
                       },
                       {
-                        "x": 18,
-                        "y": 7
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 18,
-                        "y": 30
-                      },
-                      {
-                        "x": 12,
-                        "y": 30
+                        "x": 4,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_body4.png",
+                  "image": "assets\\Player_ver01t.png",
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14,
-                      "y": 18.5
+                      "x": 14.5,
+                      "y": 11
                     }
                   ],
                   "originPoint": {
@@ -929,20 +1178,20 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
                         "x": 13,
-                        "y": 8
+                        "y": 3
                       },
                       {
-                        "x": 18,
-                        "y": 7
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 18,
-                        "y": 30
-                      },
-                      {
-                        "x": 12,
-                        "y": 30
+                        "x": 4,
+                        "y": 16
                       }
                     ]
                   ]
@@ -1166,14 +1415,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 5,
-                    "y": 16.5
+                    "x": 4.5,
+                    "y": 23
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 6,
-                    "y": 16.5
+                    "y": 23
                   },
                   "customCollisionMask": [
                     [
@@ -1561,14 +1810,19 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Collect",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1596,20 +1850,52 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 0
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
+                        "x": 2,
+                        "y": 23.5
                       },
                       {
                         "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 24,
+                        "y": 2
+                      },
+                      {
+                        "x": 30,
+                        "y": 8
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      },
+                      {
+                        "x": 30,
+                        "y": 24
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 30
+                      },
+                      {
+                        "x": 16,
                         "y": 32
+                      },
+                      {
+                        "x": 8,
+                        "y": 30
                       }
                     ]
                   ]
@@ -2389,16 +2675,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "Source\\Collision Masks",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Source\\Collision Masks.png",
+                  "image": "Source\\Collision Masks",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2418,16 +2705,16 @@
                         "y": 0
                       },
                       {
-                        "x": 16,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 16
+                        "y": 64
                       }
                     ]
                   ]
@@ -2674,7 +2961,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -2849,6 +3142,1367 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NextLevel3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\StartingGround",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\StartingCoin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Spear",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Atract",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "detract",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle - detract",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle - atract",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08333333333333333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\SpearTrap3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 22
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "trigger_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Through_Platform",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\JumpThrough_Platform.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 61,
+                        "y": 6
+                      },
+                      {
+                        "x": 63,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 13
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 1,
+                        "y": 7.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "top_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "top_hazard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 7
+                      },
+                      {
+                        "x": 0,
+                        "y": 7
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Big_Hazard",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Big_Hazard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Big_Hazard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_Left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left_hazard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 9,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Right_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Right_hazard_small",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Big_hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "right_hazard_big",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "right_hazard_big2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "small_hazard_bot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "bot_hazard_small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bot_hazard_small",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 9
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Big_hazard_left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left_hazard_big",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Left_hazard_big2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_bot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_bot",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_bot",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 5
+                      },
+                      {
+                        "x": 16,
+                        "y": 5
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_top",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 11
+                      },
+                      {
+                        "x": 0,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_right",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 0
+                      },
+                      {
+                        "x": 11,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "med_Hazard_left",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Med_Hazard_left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Med_Hazard_left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 5,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2913,7 +4567,42 @@
             "folderName": "Platform",
             "children": [
               {
+                "folderName": "Interactable",
+                "children": [
+                  {
+                    "objectName": "Checkpoint"
+                  },
+                  {
+                    "objectName": "Finish"
+                  },
+                  {
+                    "objectName": "NextLevel3"
+                  },
+                  {
+                    "objectName": "NextLevel2"
+                  },
+                  {
+                    "objectName": "NextLevel"
+                  },
+                  {
+                    "objectName": "Gate_horizontal"
+                  },
+                  {
+                    "objectName": "Gate"
+                  },
+                  {
+                    "objectName": "Trigger"
+                  },
+                  {
+                    "objectName": "trigger_2"
+                  }
+                ]
+              },
+              {
                 "objectName": "MovingPlatform_left_to_right"
+              },
+              {
+                "objectName": "Through_Platform"
               },
               {
                 "objectName": "TiledPlatform"
@@ -2924,34 +4613,49 @@
             ]
           },
           {
-            "folderName": "Interactable",
-            "children": [
-              {
-                "objectName": "Checkpoint"
-              },
-              {
-                "objectName": "Finish"
-              },
-              {
-                "objectName": "NextLevel2"
-              },
-              {
-                "objectName": "NextLevel"
-              },
-              {
-                "objectName": "Gate_horizontal"
-              },
-              {
-                "objectName": "Gate"
-              },
-              {
-                "objectName": "Trigger"
-              }
-            ]
-          },
-          {
             "folderName": "Hazards",
             "children": [
+              {
+                "folderName": "collider",
+                "children": [
+                  {
+                    "objectName": "med_Hazard_left"
+                  },
+                  {
+                    "objectName": "med_Hazard_right"
+                  },
+                  {
+                    "objectName": "med_Hazard_top"
+                  },
+                  {
+                    "objectName": "med_Hazard_bot"
+                  },
+                  {
+                    "objectName": "Big_Hazard"
+                  },
+                  {
+                    "objectName": "Big_hazard_left"
+                  },
+                  {
+                    "objectName": "Big_hazard_right"
+                  },
+                  {
+                    "objectName": "small_hazard_right"
+                  },
+                  {
+                    "objectName": "small_hazard_Left"
+                  },
+                  {
+                    "objectName": "small_hazard_bot"
+                  },
+                  {
+                    "objectName": "small_hazard_top"
+                  }
+                ]
+              },
+              {
+                "objectName": "Spear"
+              },
               {
                 "objectName": "Ghost"
               },
@@ -2994,6 +4698,44 @@
         },
         {
           "name": "QuitButton"
+        }
+      ]
+    },
+    {
+      "name": "Hazards",
+      "objects": [
+        {
+          "name": "small_hazard_top"
+        },
+        {
+          "name": "Big_Hazard"
+        },
+        {
+          "name": "small_hazard_Left"
+        },
+        {
+          "name": "small_hazard_right"
+        },
+        {
+          "name": "Big_hazard_right"
+        },
+        {
+          "name": "small_hazard_bot"
+        },
+        {
+          "name": "Big_hazard_left"
+        },
+        {
+          "name": "med_Hazard_bot"
+        },
+        {
+          "name": "med_Hazard_top"
+        },
+        {
+          "name": "med_Hazard_right"
+        },
+        {
+          "name": "med_Hazard_left"
         }
       ]
     }
@@ -3045,6 +4787,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1---dupes"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorials_ver2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3143,6 +4889,5 @@
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }

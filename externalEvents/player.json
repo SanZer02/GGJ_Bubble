@@ -325,6 +325,17 @@
         },
         {
           "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Collect",
+            "Scale",
+            "=",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
             "value": "PlaySoundCanal"
           },
           "parameters": [
@@ -334,6 +345,21 @@
             "",
             "100",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "Collect",
+            "Tween",
+            "\"Size_Bub\"",
+            "1",
+            "\"bouncePast\"",
+            "0.1",
+            "",
+            "yes"
           ]
         }
       ]
@@ -394,7 +420,392 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Player"
+      "comment": "Collision effect"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Collision FX (Player enter bubble",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Collect",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX1\"",
+                "1.1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY1\"",
+                "0.9",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrap\"",
+                "1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Collect",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrap\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX1\"",
+                "1.2",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY1\"",
+                "1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX2\"",
+                "1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY2\"",
+                "1.2",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX3\"",
+                "1.2",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY3\"",
+                "1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY3\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapX3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrapY3\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+              },
+              "parameters": [
+                "Collect",
+                "Tween",
+                "\"Bubble_wrap\"",
+                "1",
+                "\"easeOutCubic\"",
+                "0.1",
+                "1",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Player Mechanic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -413,6 +824,129 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Collect",
+            "=",
+            "Player.CenterX()",
+            "=",
+            "Player.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Gun"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "InsideBubble",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CanShoot",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "InsideBubble",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Arreter"
+          },
+          "parameters": [
+            "Collect"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Collect",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Player_Pos\"",
+            "Collect.X()",
+            "Collect.Y()",
+            "\"bounce\"",
+            "1",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SetCenter"
@@ -642,7 +1176,7 @@
               },
               "parameters": [
                 "Collect",
-                "Spike",
+                "Hazards",
                 "",
                 "",
                 ""
@@ -820,6 +1354,127 @@
       ]
     },
     {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Size\"",
+            "1.5",
+            "\"bouncePast\"",
+            "0.1",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Size\"",
+            "1",
+            "\"bouncePast\"",
+            "0.1",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Size\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Size\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"e\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+          },
+          "parameters": [
+            "Player",
+            "Tween",
+            "\"Size\"",
+            "3",
+            "\"bouncePast\"",
+            "0.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -942,7 +1597,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -952,6 +1606,126 @@
           "parameters": [
             "Player",
             "Spike",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "IsDeath",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Player",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Gun",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "BitmapGameOver",
+                "Tween",
+                "\"GameOverFadeIn\"",
+                "255",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Hazards",
             "",
             "",
             ""
