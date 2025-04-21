@@ -980,8 +980,8 @@
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14.5,
-                      "y": 11
+                      "x": 9.5,
+                      "y": 10.5
                     }
                   ],
                   "originPoint": {
@@ -1034,8 +1034,8 @@
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14.5,
-                      "y": 11
+                      "x": 9.5,
+                      "y": 10.5
                     }
                   ],
                   "originPoint": {
@@ -1076,8 +1076,8 @@
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14.5,
-                      "y": 11
+                      "x": 9.5,
+                      "y": 10.5
                     }
                   ],
                   "originPoint": {
@@ -1118,8 +1118,8 @@
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14.5,
-                      "y": 11
+                      "x": 9.5,
+                      "y": 10.5
                     }
                   ],
                   "originPoint": {
@@ -1160,8 +1160,8 @@
                   "points": [
                     {
                       "name": "HeldPoint",
-                      "x": 14.5,
-                      "y": 11
+                      "x": 9.5,
+                      "y": 10.5
                     }
                   ],
                   "originPoint": {
@@ -1355,7 +1355,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Gun",
       "type": "Sprite",
@@ -1404,46 +1404,27 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "assets\\Player_gun.png",
                   "points": [
                     {
                       "name": "GunHead",
-                      "x": 42,
-                      "y": 16
+                      "x": 26,
+                      "y": 9
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 4.5,
-                    "y": 23
+                    "x": 0,
+                    "y": 9
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 6,
-                    "y": 23
+                    "x": -5,
+                    "y": 9.5
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 13
-                      },
-                      {
-                        "x": 27,
-                        "y": 13
-                      },
-                      {
-                        "x": 27,
-                        "y": 20
-                      },
-                      {
-                        "x": 1,
-                        "y": 20
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
