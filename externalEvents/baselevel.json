@@ -53,6 +53,16 @@
         },
         {
           "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Gates",
+            "LinearMovement",
+            "no"
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
